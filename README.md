@@ -4,7 +4,7 @@ This repository contains a python script to automatically set up directories and
 
 Credit for the amazing advent of code goes to [Eric Wastl](https://adventofcode.com/)
 
-**Don't forget to add input.py, problem_0.md and problem_2.md to your .gitignore to abide by the wishes of Eric Wastl
+**Don't forget to add input.py, input.txt, problem_1.md and problem_2.md to your .gitignore to abide by the wishes of Eric Wastl
 and maybe give me a star if u enjoy using this :)**
 
 ## Features
