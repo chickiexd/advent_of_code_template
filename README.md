@@ -4,6 +4,9 @@ This repository contains a python script to automatically set up directories and
 
 Credit for the amazing advent of code goes to [Eric Wastl](https://adventofcode.com/)
 
+<h1>Don't forget to add input.py, problem_0.md and problem_2.md to your .gitignore to abide by the wishes of Eric Wastl
+and maybe give me a star if u enjoy using this :)</h1>
+
 ## Features
 
 - Automatically creates a new directory for the specified day.
@@ -52,8 +55,7 @@ python create_new_day.py <day_number>
 
 Replace `<day_number>` with the day of the challenge (e.g., 01, 02, 03, ...), remember to always use 2 digits even for single digit days.
 
-**Don't forget** to uncomment the input.py, problem_1.md and problem_2.md in .gitignore to abide by the wishes of Eric Wastl
-and maybe give me a star if u enjoy using this :)
+
 
 ### Examples
 
