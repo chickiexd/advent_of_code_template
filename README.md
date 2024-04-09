@@ -17,16 +17,18 @@ Credit for the amazing advent of code goes to [Eric Wastl](https://adventofcode.
 
 Before you start using this script, ensure you have the following installed on your system:
 - Python 3.x (for running the script and setting up Python challenges)
+- Pip to install the required packages
 - Go (if setting up challenges in Go)
 - Git (optional, for version control)
 
 ## Getting Started
 
 Clone this repository to your local machine using:
-
+ 
 ```
 git clone https://github.com/chickiexd/advent_of_code_template.git
 cd advent_of_code_template
+pip install -r requirements.txt
 ```
 
 ## Usage
