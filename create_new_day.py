@@ -15,16 +15,23 @@ PARSE_DAY = False
 PROJECT_DIR = ""
 
 def generate_files(day, lang):
-    filenames = [
-        "input",
-        "main_part_1",
-        "main_part_2",
-        "problem_1.md",
-        "problem_2.md",
-    ]
+    
     if lang == "python":
+        filenames = [
+            "input",
+            "main_part_1",
+            "main_part_2",
+            "problem_1.md",
+            "problem_2.md",
+        ]
         file_ext = ".py"
     elif lang == "go":
+        filenames = [
+            "input",
+            "main",
+            "problem_1.md",
+            "problem_2.md",
+        ]
         file_ext = ".go"
 
     for i in range(len(filenames)):

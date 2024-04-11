@@ -7,12 +7,14 @@ import (
 )
 
 var filePath = "./input.txt"
-var testData = []string{}
+var testData = []string{
 
-func ReadFileToList(filePath string) ([]string, error) {
+}
+
+func ReadFileToList(filePath string) ([]string) {
     file, err := os.Open(filePath)
     if err != nil {
-        return nil, err
+        return nil
     }
     defer file.Close()
 
@@ -21,24 +23,24 @@ func ReadFileToList(filePath string) ([]string, error) {
     for scanner.Scan() {
         lines = append(lines, strings.TrimSpace(scanner.Text()))
     }
-    return lines, scanner.Err()
+    return lines 
 }
 
-func GetInputDataAsString(test bool) (string, error) {
+func GetInputDataAsString(test bool) (string) {
     if test {
-        return strings.Join(testData, "\n"), nil
+        return strings.Join(testData, "\n")
     }
 
     data, err := os.ReadFile(filePath)
     if err != nil {
-        return "", err
+        return ""
     }
-    return string(data), nil
+    return string(data)
 }
 
-func GetInputDataAsList(test bool) ([]string, error) {
+func GetInputDataAsList(test bool) ([]string) {
     if test {
-        return testData, nil
+        return testData
     }
     return ReadFileToList(filePath)
 }
